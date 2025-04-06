@@ -1,4 +1,4 @@
-namespace Results;
+using Results.Lib;
 
 public static class ResultExample
 {

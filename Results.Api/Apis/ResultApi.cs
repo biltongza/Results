@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
+using Results.Lib;
 
 namespace Results.Apis;
 public static class ResultApi
