@@ -1,5 +1,4 @@
 namespace Results.Lib;
-
 public interface IResult;
 
 public static class Result

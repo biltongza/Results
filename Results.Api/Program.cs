@@ -10,5 +10,3 @@ app
     .MapResultApi();
 
 app.Run();
-
-

@@ -12,6 +12,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Results.Lib\Results.Lib.csproj" />
+    <ProjectReference Include="..\Results.Lib.Analyzers\Results.Lib.Analyzers.csproj" 
+                      PrivateAssets="all"
+                      ReferenceOutputAssembly="false"
+                      OutputItemType="Analyzer"
+                      SetTargetFramework="TargetFramework=netstandard2.0" />
   </ItemGroup>
 
 </Project>

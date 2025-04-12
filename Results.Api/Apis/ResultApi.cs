@@ -21,7 +21,7 @@ public static class ResultApi
         return result.Actual switch
         {
             OkResult<int> ok => TypedResults.Ok(ok.Value),
-            ErrorResult err => TypedResults.BadRequest(err.Message),
+            //ErrorResult err => TypedResults.BadRequest(err.Message),
             _ => throw new NotImplementedException()
         };
     }
